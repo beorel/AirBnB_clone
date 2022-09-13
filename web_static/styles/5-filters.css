@@ -1,0 +1,46 @@
+/*style for section of task 4*/
+
+.filters  {
+			border:1px  solid #DDDDDD;
+			border-radius: 4px;
+			background:rgb(255,255,255);
+			height:70px;
+			width:100%;
+}
+/*add styleto the button*/
+.filters button {
+				background-color:#FF5A5F;
+				border:0px;
+				border-radius:4px;
+				font-size: 18px;
+				text-color:#FFFFFF;
+				height:48px;
+				width:20%;
+				float:right;
+				margin:12px 30px;
+}
+.filters button:hover{
+				background-color:rgba(255,90,95,.9);
+}
+/* styles for location and amenities*/
+.filters div.locations {
+					border-right: 1px solid #DDDDDD;
+					height:100%;
+					width: 25%;
+					display:inline-block;
+					padding-left: 50px;
+					line-height: 5px;
+
+}
+ .filters div.amenities {
+							height:100%;
+							width:25%;
+							display:inline-block;
+							padding-left:50px;
+							text-align:center;
+							line-height:5px;
+							
+							
+					
+	 
+ }

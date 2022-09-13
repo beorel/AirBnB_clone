@@ -1,0 +1,97 @@
+/*style for section of task 4*/
+
+.filters  {
+			border:1px  solid #DDDDDD;
+			border-radius: 4px;
+			background:rgb(255,255,255);
+			height:70px;
+			width:100%;
+			display:inline-block;
+}
+/*add styleto the button*/
+.filters button {
+				background-color:#FF5A5F;
+				border:0px;
+				border-radius:4px;
+				font-size: 18px;
+				color:#FFFFFF;
+				height:48px;
+				width:20%;
+				float:right;
+				margin:12px 30px;
+}
+.filters button:hover{
+				background-color:rgba(255,90,95,.9);
+}
+/* styles for location and amenities*/
+.filters .locations,
+.filters .amenities {
+					display:inline-block;
+					height:100%;
+					position:relative;
+					padding-left:15px;
+					width: 25%;
+					
+}
+/* locations border */
+.filters .locations {
+					border-right:1px solid #ddd;
+}
+/*locations and amenties hover opacity */
+.filters .locations:hover,
+.filters .amenities:hover{
+					background-color:#fafafa;
+}
+
+/*locations and amenities popover menu*/
+.filters .popover{
+					background-color:#fafafa;
+					border:1px solid #ddd;
+					border-radius:4px;
+					display:none;
+					position:absolute;
+					margin-top:auto;
+					width:100%;
+}
+/*locations and amenities popover hover */
+.filters .locations:hover .popover,
+.filters .amenities:hover .popover {
+	display:block;
+}
+ 
+/*locations list-style*/
+.filters .locations ul {
+	padding:6px 0 6px 0;
+}
+/* locations  list element margin */
+.filter .locations li {
+		margin: 0 auto 6px 3em;
+}
+ /* Amenities list elements margin */
+.filters .amenities li {
+  margin: 12px auto 12px 30px;
+}
+
+ /*
+ * --- Filters header style ---
+ */
+
+ /* Header box sizing */
+ .filters h2,
+.filters h3,
+.filters h4 {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/* Header 2 style */
+.filters h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 12px auto 0 30px;
+}
+.filters .locations ul,
+.filters .amenities ul {
+  list-style-type:none;
+  padding-left:15px;
+}
